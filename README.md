@@ -69,7 +69,7 @@ const user = new State({
 
 ### Пример подключения к React
 ```js
-impoer connect from 'small-state/react';
+import connect from 'small-state/react';
 import user from '../state/user';
 
 function UserName(props) {
