@@ -74,7 +74,7 @@ import user from '../state/user';
 
 function UserName(props) {
   return (
-    <h2 className='user__name'>{props.user.name}</h2>
+    <h2 className='user__name'>{props.name}</h2>
   )
 }
 
